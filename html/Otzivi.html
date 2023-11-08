@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы</title>
+    <link rel="stylesheet" href="../css/otzivi.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h3 class="mm" onclick="document.location='Onas.html'">О нас</h3>
+        <h3 class="mm" onclick="document.location='Katalog.html'">Каталог товаров</h3>
+        <h3 class="mm" onclick="document.location='Doctavka.html'">Доставка</h3>
+        <h3 class="mm" onclick="document.location='Contakti.html'">Контакты</h3>
+        <h3 class="mm" onclick="document.location='Otzivi.html'">Отзывы</h3>
+        <h3 class="mm" onclick="document.location='Korzina.html'">Корзина</h3>
+    </header>
+    <header>
+        <h1>Отзывы</h1>
+    </header>
+    <main>
+        <section id="reviews" class="review">
+        </section>
+    </main>
+
+    <form>
+        <h1>Добавить новый отзыв:</h1>
+        <textarea id="newReview" rows="3" placeholder="Напишите свой отзыв здесь..."></textarea>
+        <br>
+        <button type="button" onclick="addReview()">Отправить</button>
+    </form>
+    <script src="../js/otzivi.js"></script>
+</body>
+
+</html>

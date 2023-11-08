@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Фрукты</title>
+	<link rel="stylesheet" href="../libs/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="../libs/bootstrap-grid.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../css/fruits.css">
+</head>
+
+<body>
+	<header class="header">
+		<h3 class="mm" onclick="document.location='Onas.html'">О нас</h3>
+		<h3 class="mm" onclick="document.location='Katalog.html'">Каталог товаров</h3>
+		<h3 class="mm" onclick="document.location='Doctavka.html'">Доставка</h3>
+		<h3 class="mm" onclick="document.location='Contakti.html'">Контакты</h3>
+		<h3 class="mm" onclick="document.location='Otzivi.html'">Отзывы</h3>
+		<h3 class="mm" onclick="document.location='Korzina.html'">Корзина</h3>
+	</header>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/apricot-isolated-on-white-background_86117-660.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Абрикосы</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 450тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Абрикосы', 450)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/juicy-and-ripe-pineapple-on-a-white-background_320146-62.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Ананас</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2000тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Ананас', 2000)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/fresh-orange-isolated-on-white-background_93675-1323.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Апельсины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1000тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Апельсины', 1000)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/bananas-on-a-white-background_73289-80.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Бананы</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 800тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Бананы', 800)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/grapes-on-a-white-background_181303-4423.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Виноград</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1300тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Виноград', 1300)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://avatars.mds.yandex.net/i?id=541b8c59b7622d53f4ab098b01e16ee45e7d41d5-8282002-images-thumbs&n=13"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Вишня</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1100тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Вишня', 1100)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/pomegranate-on-wite-background_253984-6455.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Гранат</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1300тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Гранат', 1300)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://www.meme-arsenal.com/memes/4834e2cd6c0eaafa8907660b17bdc467.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Груши</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 900тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Груши', 900)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/fresh-juicy-figs-on-white-background_280340-404.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Инжир</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1100тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Инжир', 1100)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/kiwi-fruit-on-a-white-isolated_33807-845.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Киви</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2600тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Киви', 2600)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/lemon-with-leaf-isolated-on-white-background_55883-445.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Лимон</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 900тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Лимон', 900)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/lime-isolated-on-white-background_62856-4985.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Лайм</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 3700тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Лайм', 3700)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/mandarin-isolated-on-white-background_93675-75606.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Мандарины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1600тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Мандарины', 1600)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/peach-isolated-on-white-background_88281-1751.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Персики</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1200тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Персики', 1200)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/plums-with-leaves-isolated-on-white-background_88281-1835.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Слива</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 700тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Слива', 700)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/persimmon-on-white-isolated_196038-865.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Хурма</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1400тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Хурма', 1400)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://avatarko.ru/img/kartinka/13/frukt_yabloko_12998.jpg" alt="">
+							</div>
+							<div class="info">
+								<h3>Яблоки красные</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 580тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Яблоки красные', 580)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/one-green-apple-on-isolated-white-background_270100-879.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Яблоки зеленые</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 520тг/кг</span></li>
+								</ul>
+								<div class="info-price">
+									<div>
+										<button class="my-button" onclick="addToCart('Яблоки зеленые', 520)">Добавить в
+											корзину</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<script src="../js/cart.js"></script>
+	<script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

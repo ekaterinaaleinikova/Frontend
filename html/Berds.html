@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Птица</title>
+
+	<link rel="stylesheet" href="../libs/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="../libs/bootstrap-grid.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../css/berds.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<h3 class="mm" onclick="document.location='Onas.html'">О нас</h3>
+		<h3 class="mm" onclick="document.location='Katalog.html'">Каталог товаров</h3>
+		<h3 class="mm" onclick="document.location='Doctavka.html'">Доставка</h3>
+		<h3 class="mm" onclick="document.location='Contakti.html'">Контакты</h3>
+		<h3 class="mm" onclick="document.location='Otzivi.html'">Отзывы</h3>
+		<h3 class="mm" onclick="document.location='Korzina.html'">Корзина</h3>
+	</header>
+
+
+	<div class="container mt-5">
+
+
+		<div id="iiii" class="row">
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/raw-hen-on-a-white-background_488220-16300.jpg"
+									alt="">
+							</div>
+
+
+
+							<div class="info">
+								<h3>Курица целая</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1800тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Курица целая', 1800)">Добавить в
+									корзину</button>
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/chicken-meat-on-a-white-background_181303-2980.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Филе курицы</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2300тг/кг</span></li>
+								</ul>
+
+								<button class="my-button" onclick="addToCart('Филе курицы', 2300)">Добавить в
+									корзину</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/raw-chicken-thigh-isolated-on-white_176402-2175.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Бедра курицы</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1100тг/кг</span></li>
+								</ul>
+
+								<button class="my-button" onclick="addToCart('Бедра курицы', 1100)">Добавить в
+									корзину</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/minced-fresh-chicken-meat-on-white-background-studio-photo_115919-3679.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Фарш куриный</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2300тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Фарш куриный', 2300)">Добавить в
+									корзину</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/raw-chicken-legs-on-white_280340-316.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Окорочка куриные</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1500тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Окорочка куриные', 1500)">Добавить
+									в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/raw-chicken-legs-with-skin-on-a-white-background_280340-893.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Голень куриная</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1700тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Голень куриная', 1700)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/raw-chicken-wings-with-skin-on-a-white-background_280340-844.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Крылья куриные</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1700тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Крылья куриные', 1700)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://bahetle-sib.ru/storage/goods/73592_58fpe.jpg" alt="">
+							</div>
+							<div class="info">
+								<h3>Суповой набор</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 300тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Суповой набор', 300)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<script src="../js/cart.js"></script>
+	<script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

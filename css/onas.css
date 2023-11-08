@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://img.freepik.com/premium-photo/a-yellow-background-with-lemons-and-leaves_881868-523.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: 250px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    color: #333;
+}
+
+.address {
+    margin-top: 10px;
+}
+
+.mm {
+    margin: 10px;
+    border-bottom: 2px solid yellow;
+    padding: 10px;
+    font-size: 21px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.mm:hover {
+    color: #0056b3;
+}
+
+.header {
+    border-bottom: 3px solid black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+
+}

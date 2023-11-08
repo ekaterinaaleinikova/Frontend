@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Мясо</title>
+	<link rel="stylesheet" href="../libs/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="../libs/bootstrap-grid.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../css/styles5.css">
+</head>
+
+<body>
+	<header class="header">
+		<h3 class="mm" onclick="document.location='Onas.html'">О нас</h3>
+		<h3 class="mm" onclick="document.location='Katalog.html'">Каталог товаров</h3>
+		<h3 class="mm" onclick="document.location='Doctavka.html'">Доставка</h3>
+		<h3 class="mm" onclick="document.location='Contakti.html'">Контакты</h3>
+		<h3 class="mm" onclick="document.location='Otzivi.html'">Отзывы</h3>
+		<h3 class="mm" onclick="document.location='Korzina.html'">Корзина</h3>
+	</header>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/ground-beef-on-white-background_181303-3198.jpg?w=2000"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Фарш говяжий</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 3200тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Фарш говяжий', 3200)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/beef-on-the-bone-sirloin-isolated-on-white-background_89816-46328.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Говядина на кости филе</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 3400тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Говядина на кости филе', 3400)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://e3.edimdoma.ru/data/ingredients/0000/4864/4864-ed4_wide.jpg?1533539730"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Мякоть говядины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 3500тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Мякоть говядины', 3500)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://vodovoz.ru/upload/iblock/8aa/8aa87d1f3f39f23d65c1945d663a0760.jpeg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Шея говядины на кости</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2900тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Шея говядины на кости', 2900)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://arosa-market.ru/upload/iblock/aec/aec3448ac3444135d9b66a7a779171d6.png"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Тазобедренный отруб говядины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 3100тг/кг</span></li>
+								</ul>
+								<button class="my-button"
+									onclick="addToCart('Тазобедренный отруб говядины', 3100)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://tuymaada-holding.ru/images/products/govyadina/supovoinabor.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Суп набор</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 480тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Суп набор', 480)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.fozzyshop.com.ua/dnipro/45450-large_default/govyazhe-rebro.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Ребра говядины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2700тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Ребра говядины', 2700)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/raw-round-beef-cut-isolated-on-white-background_89816-45444.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Вырезка говядины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 3600тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Вырезка говядины', 3600)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/isolated-raw-beef-brisket-on-the-white-background_219193-9687.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Грудинка говядины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2600тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Грудинка говядины', 2600)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://organicmarket.ru/files/images/product/origin/0/4482/govyadina-spinnoy-beskostniy-otrub-angusa-otlich_62ff6214c33e8.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Спинной отруб говядины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 3000тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Спинной отруб говядины', 3000)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/raw-lamb-tenderloin-fillet-mutton-sirloin-meat-isolated-on-white-background_89816-44327.jpg?w=2000"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Вырезка баранины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 5500тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Вырезка баранины', 5500)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://halal-spb.ru/sites/default/files/products/baranina-rebra.jpg" alt="">
+							</div>
+							<div class="info">
+								<h3>Ребра баранины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 4600тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Ребра баранины', 4600)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://myasoedkazan.com/wp-content/uploads/2021/09/%D0%A1%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Спинка баранины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 4500тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Спинка баранины', 4500)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img3.zakaz.ua/novus20200908.1600771506.ad72436478c_2020-09-22_Alina/novus20200908.1600771506.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.350nowm.jpg.350x.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Мякоть баранины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 5500тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Мякоть баранины', 5500)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://m.dom-eda.com/uploads/images/catalog/item/cdba8a88ca/c1a362ddc0_1000.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Фарш бараний</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 4800тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Фарш бараний', 4800)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://posudamart.ru/collection/39/50/265039.jpg" alt="">
+							</div>
+							<div class="info">
+								<h3>Стейк баранины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 5200тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Стейк баранины', 240)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/beef-steak-isolated-on-white-background_188078-19524.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Стейк говядины</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 4000тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Стейк говядины', 4000)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../js/cart.js"></script>
+	<script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

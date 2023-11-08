@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Полуфабрикаты</title>
+
+	<link rel="stylesheet" href="../libs/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="../libs/bootstrap-grid.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../css/styles3.css">
+</head>
+
+<body>
+
+
+	<header class="header">
+		<h3 class="mm" onclick="document.location='Onas.html'">О нас</h3>
+		<h3 class="mm" onclick="document.location='Katalog.html'">Каталог товаров</h3>
+		<h3 class="mm" onclick="document.location='Doctavka.html'">Доставка</h3>
+		<h3 class="mm" onclick="document.location='Contakti.html'">Контакты</h3>
+		<h3 class="mm" onclick="document.location='Otzivi.html'">Отзывы</h3>
+		<h3 class="mm" onclick="document.location='Korzina.html'">Корзина</h3>
+	</header>
+
+	<div class="container mt-5">
+
+
+		<div id="iiii" class="row">
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/frozen-dumplings-on-white-background_128937-835.jpg"
+									alt="">
+							</div>
+
+
+
+							<div class="info">
+								<h3>Пельмени</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1200тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Пельмени', 1200)">Добавить в
+									корзину</button>
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://media.istockphoto.com/id/1317592111/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%BB%D0%BE%D0%B5%D0%BD%D0%BE%D0%B5-%D0%B7%D0%B0%D0%BC%D0%BE%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%B2%D1%8B%D0%BF%D0%B5%D1%87%D0%BA%D0%B8-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BD%D0%BE%D0%BC-%D0%BE%D1%81%D0%B2%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.jpg?s=612x612&w=0&k=20&c=9UGz5jy_gEI-Dc5_PrGfLV5aKXUxrG5k5vK4XdqOmRk="
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Тесто слоеное</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 600тг/кг</span></li>
+								</ul>
+
+								<button class="my-button" onclick="addToCart('Тесто слоеное', 600)">Добавить в
+									корзину</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/crab-sticks-isolated-on-white-background_176402-2599.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Палочки крабовые</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена:400тг/100г</span></li>
+								</ul>
+
+								<button class="my-button" onclick="addToCart('Палочки крабовые', 4000)">Добавить в
+									корзину</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://myasoedkazan.com/wp-content/uploads/2021/11/%D0%9C%D0%B0%D0%BD%D1%82%D1%8B.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Манты говядина</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2000тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Манты говядина', 2000)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/semi-finished-cutlets-close-up-on-a-white-background-isolated_269543-2253.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Котлеты домашние</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2200тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Котлеты домашние', 2200)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/vareniki-raw-frozen-dumplings-isolated-on-white-background-with-clipping-path_88281-4477.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Вареники с картошкой</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1100тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Вареники с картошкой', 1100)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img.freepik.com/premium-photo/tasty-vareniki-or-pierogi-isolated-on-white_185193-45009.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Вареники с творогом</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1200тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Вареники с творогом', 1200)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://fk100.ru/modules/image/src/images/cache/product_image_1134_29-380-237-2b15b71a.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Манты с курицей</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1800тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Манты с курицей', 1800)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://media.istockphoto.com/id/926329152/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B7%D0%B0%D0%BC%D0%BE%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B8%D1%86%D1%86%D0%B0-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-%D0%BF%D0%BE%D0%BB%D1%83%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D1%82%D1%8B-%D0%BF%D0%B8%D1%86%D1%86%D1%8B-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-%D0%B2%D0%B8%D0%B4-%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83.jpg?s=612x612&w=0&k=20&c=phTOqhmwQJ4qNHh-GFSrvkmQkF8UuDdWoQlS0dYoJZk="
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Пицца</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1800тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Пицца', 1800)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://media.istockphoto.com/id/982633940/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%B2%D0%B5%D0%B6%D0%B5%D0%B7%D0%B0%D0%BC%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D0%BB%D1%83%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D1%82%D1%8B-%D1%84%D1%80%D0%B8%D0%BA%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D0%BA%D0%B8-%D0%B8%D0%B7-%D0%BD%D0%B5%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BC%D1%8F%D1%81%D0%B0-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5.jpg?s=170667a&w=0&k=20&c=TmDK-gybXcukYD5Q4Qa8eJAlvexB_UE-fIjyq0FCxdI="
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Фрикадельки говяжьи</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 1600тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Фрикадельки говяжьи', 1600)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://img3.zakaz.ua/10.1599743461.ad72436478c_2020-09-10_Julia/10.1599743461.SNCPSG10.obj.0.1.jpg.oe.jpg.pf.jpg.1350nowm.jpg.1350x.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Колбаски любительские</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2200тг/кг</span></li>
+								</ul>
+								<button class="my-button" onclick="addToCart('Колбаски любительские', 2200)">Добавить в
+									корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="container">
+					<div class="row">
+						<div class="product">
+							<div class="image">
+								<img src="https://www.zastavki.com/pictures/originals/2017Food___Meat_and_barbecue_Meat_with_vegetables_for_shish_kebab_on_skewers_on_a_white_background_119040_.jpg"
+									alt="">
+							</div>
+							<div class="info">
+								<h3>Шашалык говядина с овощами</h3>
+								<ul class="rating">
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star"></ion-icon></li>
+									<li><ion-icon name="star-half-outline"></ion-icon></li>
+									<li><span class="price">Цена: 2300тг/кг</span></li>
+								</ul>
+								<button class="my-button"
+									onclick="addToCart('Шашалык говядина с овощами', 2300)">Добавить в корзину</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<script src="../js/cart.js"></script>
+	<script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

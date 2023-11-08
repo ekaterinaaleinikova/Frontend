@@ -1,0 +1,73 @@
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background-color: yellow;
+}
+
+.image {
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.product-text {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 16px;
+}
+
+.info-price {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.my-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-button:hover {
+    background-color: #0056b3;
+}
+
+
+.mm {
+    margin: 10px;
+    border-bottom-style: solid;
+    padding: 10px;
+}
+
+.header {
+    border-style: solid;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
